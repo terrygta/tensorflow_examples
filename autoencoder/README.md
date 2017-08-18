@@ -1,0 +1,2 @@
+# Autoencoder based on feedforward neural network
+Let's assume there is a flow generator which produces a sine wave (periods = 4s). A flow meter is used to check if the device works correctly. The sampling rate of the flow meter is 50Hz and it have +/- 0.01 measurement error. Because the verification is done by human, there are +/- 0.1 second delay when measuring the flow. Here the python script implements an autoencoder to detect anomaly in the measured flow waves.
