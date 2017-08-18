@@ -1,0 +1,2 @@
+# Feedforward neural network
+The example python script first generates test data by using sklearn.datasets.make_moons, then builds a feedforward neural network to classify the data set and plots the boundary of two classes. The parameters can be tuned to see how the boundary is changed.
